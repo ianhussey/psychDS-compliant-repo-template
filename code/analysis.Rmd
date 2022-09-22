@@ -48,7 +48,8 @@ ggplot(mtcars, aes(mpg, wt, color = as.factor(gear))) +
 
 ```{r}
 
-# TODO
+mtcars %>%
+  kable()
 
 ```
 
