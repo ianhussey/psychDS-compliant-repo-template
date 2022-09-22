@@ -2,7 +2,7 @@
 
 ## Description & purpose
 
-This generic folder structure, with brief annotations in notes.txt files, is compliant with the [psych-DS standard for psychological research data](https://psych-ds.github.io/). It can easily be forked or downloaded and used as the template for new projects. Cool, no?
+This generic folder structure, with brief annotations in notes.txt files, is compliant with the [psych-DS standard for psychological research data](https://psych-ds.github.io/). It can easily be forked or downloaded and used as the template for new projects.
 
 ## Github repo URL
 
