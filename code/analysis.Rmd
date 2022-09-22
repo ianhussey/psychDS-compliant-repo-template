@@ -33,6 +33,9 @@ library(knitr)
 
 data(mtcars)
 
+mtcars <- mtcars |>
+  mutate(mpg = mpg + 2)
+
 ```
 
 # Plot
@@ -52,4 +55,10 @@ ggplot(mtcars, aes(mpg, wt, color = as.factor(gear))) +
 
 ```
 
+# awesome multilevel model
 
+```{r}
+
+fit <- lme4::lmer(y ~ x + (1 | site), data = mtcars)
+
+```
